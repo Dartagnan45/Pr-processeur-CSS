@@ -1,0 +1,304 @@
+@font-face {
+    font-family: "partybusiness";
+    src: url("nancy-lorenz_party-business/partybusiness.ttf");
+}
+@font-face {
+    font-family: "ani";
+    src: url("pete-klassen_aniron/anicb___.ttf");
+    src: url("pete-klassen_aniron/anicm___.ttf");
+    src: url("pete-klassen_aniron/anirb___.ttf");
+    src: url("pete-klassen_aniron/anirm___.ttf");
+}
+@font-face {
+    font-family: "teng";
+    src: url("tengwar_annatar/tngan.ttf");
+    src: url("tengwar_annatar/tnganb.ttf");
+    src: url("tengwar_annatar/tnganbi.ttf");
+    src: url("tengwar_annatar/tngani.ttf");
+}
+body {
+    background: url(/images/bg_light.png);
+}
+
+/*header*/
+/*nav*/
+.navbar {
+    background-color: #ff7c33;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-family: "ani";
+    font-size: 1.2em;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav .nav-pills .nav-fill {
+    color: white;
+}
+
+/*carsousel*/
+.carousel-caption {
+    top: 30%;
+}
+
+h1 {
+    font-family: "partybusiness";
+    font-size: 7em;
+}
+
+.text-carousel {
+    font-size: 4em;
+    font-family: "partybusiness";
+}
+
+.initiales {
+    font-size: 4em;
+    font-family: "partybusiness";
+}
+
+p {
+    font-family: "ani";
+}
+
+/*pills*/
+.pills {
+    font-family: "ani";
+}
+
+h2 {
+    font-family: "ani";
+    font-size: 1.5em;
+}
+
+.pills {
+    font-family: "ani";
+    font-size: 1.5em;
+    color: gray;
+}
+
+.pills:hover {
+    color: #FF4404;
+    text-decoration: underline;
+    color: #FF4404;
+}
+
+.teng {
+    font-family: "teng";
+    color: #FF4404;
+}
+
+.w {
+    font-family: "partybusiness";
+    font-size: 1em;
+    opacity: 0;
+}
+
+.pills:hover .w {
+    opacity: 1;
+}
+
+/*thumbnails*/
+.card {
+    background: url(images/bg_dark.png);
+}
+
+.card-img-top {
+    opacity: 0.7;
+}
+
+.card-img-top:hover {
+    opacity: 1;
+}
+
+.card-text {
+    color: white;
+    font-family: "partybusiness";
+    font-size: 2.5em;
+}
+
+.coins {
+    font-family: "partybusiness";
+    color: #FF4404;
+}
+
+.reward {
+    position: absolute;
+    text-align: center;
+    font-family: "partybusiness";
+    font-size: 2.5em;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 2%;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    box-shadow: 4px 4px 12px 12px white;
+}
+
+.dead {
+    position: absolute;
+    text-align: center;
+    font-family: "partybusiness";
+    font-size: 3em;
+    color: #FF4404;
+    top: 10%;
+    left: 40%;
+}
+
+.card:hover .reward {
+    opacity: 0;
+}
+
+.card:hover .dead {
+    visibility: hidden;
+}
+
+.card {
+    border: 5px solid black;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "partybusiness";
+    font-size: 4em;
+}
+
+.card-title1 {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "partybusiness";
+    font-size: 3em;
+    text-decoration: line-through #ff7c33;
+    font-size: 4em;
+}
+
+/*best hunters*/
+/*footer*/
+footer {
+    background-color: #ff7c33;
+}
+
+footer a {
+    color: white;
+    font-family: "ani";
+    font-size: 1.2em;
+}
+
+.list-group-item {
+    background-color: #ff7c33;
+    border-style: none;
+}
+
+/*ring*/
+.body-title {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 50px;
+    text-align: center;
+    font-family: "ani";
+}
+
+.double-ring {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 6.5em;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #ff7c33;
+}
+
+.big-ring {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    border: 15px solid #ffcc00;
+    box-shadow: inset 3px 3px 3px #dad26a, 3px 3px 3px #dad26a;
+}
+
+.ring-chain1 {
+    border: 7px solid #262626;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    box-shadow: inset 3px 3px 3px, 3px 3px 3px #0d0d0d;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.ring-chain2 {
+    border: 7px solid #262626;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    box-shadow: inset 3px 3px 3px, 3px 3px 3px #0d0d0d;
+    padding: 20px;
+    margin-left: -20px;
+}
+
+.ring-chain3 {
+    border: 7px solid #262626;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    box-shadow: inset 3px 3px 3px, 3px 3px 3px #0d0d0d;
+    padding: 30px;
+    margin-left: -30px;
+}
+
+.ring-chain4 {
+    border: 7px solid #262626;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    box-shadow: inset 3px 3px 3px, 3px 3px 3px #0d0d0d;
+    padding: 40px;
+    margin-left: -40px;
+}
+
+.ring-chain5 {
+    border: 7px solid #262626;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    box-shadow: inset 3px 3px 3px, 3px 3px 3px #0d0d0d;
+    padding: 50px;
+    margin-left: -50px;
+}
+
+.ring-chain6 {
+    border: 7px solid #262626;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    transform: translate(50%, -50%);
+    box-shadow: inset 3px 3px 3px, 3px 3px 3px #0d0d0d;
+    padding: 60px;
+    margin-left: -60px;
+}
